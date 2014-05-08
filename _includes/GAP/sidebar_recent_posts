@@ -1,0 +1,13 @@
+		<h3>Recent Posts</h3>
+
+		<div style="font-size:0.9em;">
+			<ul class="posts" style="list-style-type:none; list-style:none; margin:0; padding:0; margin-left:10px;">
+			  {% for post in site.posts offset:0 limit:6 %}
+				<li>
+					<a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+					<br/>
+					<span style="font-size:0.8em;">&nbsp;&nbsp;{{ post.date | date_to_long_string }}</span>
+				</li>
+			  {% endfor %}
+			</ul>
+		</div>
