@@ -149,8 +149,9 @@ layout: page
 	var timer;
 	
 	function onClickTabsMain($obj) {
-	//alert("#div" + $obj.attr("id"));
 		$("#mainInformationPages > div").hide();
+		$("#tabsMain").removeClass("active");
+		$obj.attr("id").addClass("active");
 		$("#div" + $obj.attr("id")).show();
 	}
 
