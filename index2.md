@@ -150,8 +150,8 @@ layout: page
 	
 	function onClickTabsMain($obj) {
 		$("#mainInformationPages > div").hide();
-		$("#tabsMain").removeClass("active");
-		$obj.attr("id").addClass("active");
+		$("#tabsMain ul li").removeClass("active");
+		$obj.addClass("active");
 		$("#div" + $obj.attr("id")).show();
 	}
 
