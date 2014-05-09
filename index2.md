@@ -46,7 +46,7 @@ layout: page
 		  <li id="tabAboutUs"><a href="#null">About Us</a></li>
 		</ul>
 		
-		<div class="mainInformationPages">
+		<div id="mainInformationPages" class="mainInformationPages">
 		
 			<div id="divtabsProgress">
 				<div>We're about <span id="percentDone">5</span>% finished!</div>
@@ -148,10 +148,10 @@ layout: page
 	
 	var timer;
 	
-	function onClickTabsMain() {
-	alert("#div" + $(this).attr("id"));
+	function onClickTabsMain($obj) {
+	alert("#div" + $obj.attr("id"));
 		$("#mainInformationPages > div").hide();
-		$("#div" + $(this).attr("id")).show();
+		$("#div" + $obj.attr("id")).show();
 	}
 
 </script>
