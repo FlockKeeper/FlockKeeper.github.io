@@ -3,32 +3,6 @@ layout: page
 ---
 {% include JB/setup %}
 
-<script>
-	var end = new Date('11/15/2014 10:00 AM');
-
-	var _second = 1000;
-	var _minute = _second * 60;
-	var _hour = _minute * 60;
-	var _day = _hour * 24;
-
-	function showRemaining() {
-		var now = new Date();
-		var distance = end - now;
-		if (distance < 0) {
-			distance = 0;
-			clearInterval(timer);
-		}
-		
-		$("#countdownDays").text(Math.floor(distance / _day));
-		$("#countdownHours").text(Math.floor((distance % _day) / _hour));
-		$("#countdownMinutes").text(Math.floor((distance % _hour) / _minute));
-		$("#countdownSeconds").text(Math.floor((distance % _minute) / _second));
-	}
-
-	var timer = setInterval(showRemaining, 1000);
-</script>
-
-
 <div class="mainContent">
 	<h2>We're Building Something Great ...</h2>
 	
@@ -133,3 +107,33 @@ layout: page
 	</div>
 
 </div>	
+
+<script>
+	var end = new Date('11/15/2014 10:00 AM');
+
+	var _second = 1000;
+	var _minute = _second * 60;
+	var _hour = _minute * 60;
+	var _day = _hour * 24;
+
+	function showRemaining() {
+		var now = new Date();
+		var distance = end - now;
+		if (distance < 0) {
+			distance = 0;
+			clearInterval(timer);
+		}
+		
+		$("#countdownDays").text(Math.floor(distance / _day));
+		$("#countdownHours").text(Math.floor((distance % _day) / _hour));
+		$("#countdownMinutes").text(Math.floor((distance % _hour) / _minute));
+		$("#countdownSeconds").text(Math.floor((distance % _minute) / _second));
+	}
+	
+	var timer;
+	$(document).ready(function(){
+		timer = setInterval(showRemaining, 1000);
+	});
+
+</script>
+
