@@ -108,7 +108,7 @@ layout: page
 
 </div>	
 
-<script>
+<script type="text/javascript">
 	var end = new Date('11/15/2014 10:00 AM');
 
 	var _second = 1000;
@@ -131,9 +131,6 @@ layout: page
 	}
 	
 	var timer;
-	$(document).ready(function(){
-		timer = setInterval(showRemaining, 1000);
-	});
 
 </script>
 

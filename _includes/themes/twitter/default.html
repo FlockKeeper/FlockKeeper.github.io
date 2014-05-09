@@ -203,5 +203,13 @@
     </div>
 
     {% include JB/analytics %}
+    
+    <script type="text/javascript">
+    	if(showRemaining) {
+			$(document).ready(function(){
+				timer = setInterval(showRemaining, 1000);
+			});
+		}
+	</script>
   </body>
 </html>
