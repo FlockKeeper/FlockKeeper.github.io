@@ -71,13 +71,13 @@ layout: page
 							
 							<div class="divBlogPosts">
 								<h2>Blog Posts Here ...</h2>
-								<p>Blah blah blah blah blah blah blah blah blah.<p>
+								<p>Blah blah blah blah blah blah blah blah blah.</p>
 				
 								<h2>Blog Posts Here ...</h2>
-								<p>Blah blah blah blah blah blah blah blah blah.<p>
+								<p>Blah blah blah blah blah blah blah blah blah.</p>
 				
 								<h2>Blog Posts Here ...</h2>
-								<p>Blah blah blah blah blah blah blah blah blah.<p>
+								<p>Blah blah blah blah blah blah blah blah blah.</p>
 							</div>
 						</td>
 					</tr>
