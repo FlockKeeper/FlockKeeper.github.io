@@ -35,7 +35,7 @@ title: We're Building Something Great ...
 	</div>
 
 	<div class="mainInformation">
-		<ul class="nav nav-tabs">
+		<ul class="nav nav-tabs" style="margin:0;">
 		  <li class="active">
 			<a href="#">Current Progress</a>
 		  </li>
