@@ -12,19 +12,19 @@ layout: page
 		<table border="1" cellspacing="0" cellpadding="0" style="width:100%">
 			<tr>
 				<td>
-					<span id="countdownDays">59</span><br/>
+					<h3 id="countdownDays">59</h3>
 					Days
 				</td>
 				<td>
-					<span id="countdownHours">23</span><br/>
+					<h3 id="countdownHours">23</h3>
 					Hours
 				</td>
 				<td>
-					<span id="countdownMinutes">59</span><br/>
+					<h3 id="countdownMinutes">59</h3>
 					Minutes
 				</td>
 				<td><div>
-					<span id="countdownSeconds">59</span><br/>
+					<h3 id="countdownSeconds">59</h3>
 					Seconds
 				</div></td>
 			</tr>
