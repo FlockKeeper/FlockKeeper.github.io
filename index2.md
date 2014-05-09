@@ -13,19 +13,19 @@ layout: page
 			<tr>
 				<td>
 					<h1 id="countdownDays">59</h1>
-					Days
+					<p>Days</p>
 				</td>
 				<td>
 					<h1 id="countdownHours">23</h1>
-					Hours
+					<p>Hours</p>
 				</td>
 				<td>
 					<h1 id="countdownMinutes">59</h1>
-					Minutes
+					<p>Minutes</p>
 				</td>
 				<td><div>
 					<h1 id="countdownSeconds">59</h1>
-					Seconds
+					<p>Seconds</p>
 				</div></td>
 			</tr>
 			<tr>
