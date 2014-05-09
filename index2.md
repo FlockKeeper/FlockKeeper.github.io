@@ -56,7 +56,7 @@ layout: page
 				
 				<table border="0" cellspacing="0" cellpadding="0" style="width:100%;">
 					<tr>
-						<td style="vertical-align:top;">
+						<td style="vertical-align:top; width:250px;">
 							<img src="{{ BASE_PATH }}/images/TwitterIcon.png" alt="Logo" style="width:250px; height:250px;"/>
 						</td>
 						<td style="width:100%; vertical-align:top;">
