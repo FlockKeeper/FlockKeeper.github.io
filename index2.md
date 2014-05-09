@@ -1,15 +1,10 @@
 ---
 layout: page
-title: Test
+title: We're Building Something Great ...
 ---
 {% include JB/setup %}
 
-<div class="mainHeader">
-	<h1>This is the header</h1>
-</div>
-
 <div class="mainContent">
-	<h1>We're building something great ...</h1>
 	<p>If all goes as planned, we'll be launching this service in:</p>
 	
 	<div class="mainCountdown">
