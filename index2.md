@@ -44,57 +44,61 @@ title: We're Building Something Great ...
 		  <li><a href="#">Stay Informed</a></li>
 		</ul>
 		
-		<div id="divProgress">
-			<div>We're about <span id="percentDone">10</span>% finished!</div>
+		<div class="mainInformationPages">
+		
+			<div id="divProgress">
+				<div>We're about <span id="percentDone">10</span>% finished!</div>
 
-			<div class="progress">
-			  <div class="bar" style="width: 10%;"></div>
-			</div>
+				<div class="progress">
+				  <div class="bar" style="width: 10%;"></div>
+				</div>
 
-			<h3>What we're working on now:</h3>
+				<h3>What we're working on now:</h3>
 			
-			Gathering feedback from early adopters (That's you!)<br/>
-			Planning for and designing core features.<br/>
-			Implementing specific features for select clients.
+				Gathering feedback from early adopters (That's you!)<br/>
+				Planning for and designing core features.<br/>
+				Implementing specific features for select clients.
 			
-			<div class="divBlogPosts">
-				<h2>Blog Posts Here ...</h2>
-				<p>Blah blah blah blah blah blah blah blah blah.<p>
+				<div class="divBlogPosts">
+					<h2>Blog Posts Here ...</h2>
+					<p>Blah blah blah blah blah blah blah blah blah.<p>
 				
-				<h2>Blog Posts Here ...</h2>
-				<p>Blah blah blah blah blah blah blah blah blah.<p>
+					<h2>Blog Posts Here ...</h2>
+					<p>Blah blah blah blah blah blah blah blah blah.<p>
 				
-				<h2>Blog Posts Here ...</h2>
-				<p>Blah blah blah blah blah blah blah blah blah.<p>
+					<h2>Blog Posts Here ...</h2>
+					<p>Blah blah blah blah blah blah blah blah blah.<p>
+				</div>
 			</div>
-		</div>
 		
-		<div id="divFeedback" style="display:none;">
-			<p>[Inspirational text and survey go here...]</p>
-		</div>
+			<div id="divFeedback" style="display:none;">
+				<p>[Inspirational text and survey go here...]</p>
+			</div>
 		
-		<div id="divSocialMedia" style="display:none;">
-			<ul>
-				<li>Twitter</li>
-				<li>Facebook</li>
-				<li>Google+</li>
-				<li>RSS Feed</li>
-			</ul>
-		</div>
+			<div id="divSocialMedia" style="display:none;">
+				<ul>
+					<li>Twitter</li>
+					<li>Facebook</li>
+					<li>Google+</li>
+					<li>RSS Feed</li>
+				</ul>
+			</div>
 		
-		<div id="divNewsletter" style="display:none;">
-			<p>If you would like to know about updates as they're made, sign
-			   up for our newsletter. You will receive progress reports via
-			   email as we meet major milestones or encounter significant 
-			   delays.
-			</p>
+			<div id="divNewsletter" style="display:none;">
+				<p>If you would like to know about updates as they're made, sign
+				   up for our newsletter. You will receive progress reports via
+				   email as we meet major milestones or encounter significant 
+				   delays.
+				</p>
 			
-			<ul>
-				<li>Newsletter</li>
-				<li>Facebook</li>
-				<li>Google+</li>
-				<li>RSS Feed</li>
-			</ul>
+				<ul>
+					<li>Newsletter</li>
+					<li>Facebook</li>
+					<li>Google+</li>
+					<li>RSS Feed</li>
+				</ul>
+			</div>
+		
 		</div>
 		
 	</div>
