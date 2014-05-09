@@ -36,18 +36,19 @@ layout: page
 	</div>
 
 	<div class="mainInformation">
-		<ul class="nav nav-tabs" style="margin:0;">
-		  <li class="active">
-			<a href="#">Current Progress</a>
+		<ul id="tabsMain">class="nav nav-tabs" style="margin:0;">
+		  <li id="tabProgress" class="active">
+			<a href="#null">Current Progress</a>
 		  </li>
-		  <li><a href="#">Offer Feedback</a></li>
-		  <li><a href="#">Follow Us</a></li>
-		  <li><a href="#">Stay Informed</a></li>
+		  <li id="tabFeedback"><a href="#null">Offer Feedback</a></li>
+		  <li id="tabSocialMedia"><a href="#null">Follow Us</a></li>
+		  <li id="tabNewsletter"><a href="#null">Stay Informed</a></li>
+		  <li id="tabAboutUs"><a href="#null">About Us</a></li>
 		</ul>
 		
 		<div class="mainInformationPages">
 		
-			<div id="divProgress">
+			<div id="divnavProgress">
 				<div>We're about <span id="percentDone">5</span>% finished!</div>
 
 				<div class="progress" style="margin:20px;">
@@ -84,11 +85,11 @@ layout: page
 			
 			</div>
 		
-			<div id="divFeedback" style="display:none;">
+			<div id="divnavFeedback" style="display:none;">
 				<p>[Inspirational text and survey go here...]</p>
 			</div>
 		
-			<div id="divSocialMedia" style="display:none;">
+			<div id="divnavSocialMedia" style="display:none;">
 				<ul>
 					<li>Twitter</li>
 					<li>Facebook</li>
@@ -97,7 +98,7 @@ layout: page
 				</ul>
 			</div>
 		
-			<div id="divNewsletter" style="display:none;">
+			<div id="divnavNewsletter" style="display:none;">
 				<p>If you would like to know about updates as they're made, sign
 				   up for our newsletter. You will receive progress reports via
 				   email as we meet major milestones or encounter significant 
@@ -110,6 +111,11 @@ layout: page
 					<li>Google+</li>
 					<li>RSS Feed</li>
 				</ul>
+			</div>
+		
+			<div id="divnavAboutUs" style="display:none;">
+				<p>About us.
+				</p>
 			</div>
 		
 		</div>
@@ -141,6 +147,11 @@ layout: page
 	}
 	
 	var timer;
+	
+	function onClickTabsMain() {
+		$("#mainInformationPages > div").hide();
+		$("#div" + $(this).attrib("id")).show();
+	}
 
 </script>
 
