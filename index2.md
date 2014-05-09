@@ -3,25 +3,101 @@ layout: page
 ---
 {% include JB/setup %}
 
-This site will be a showcase for the projects that my daughters (Zoe, Abby, and
-Mary Frances) and I work on.
+<div class="mainHeader">
+	<h1>This is the header</h1>
+</div>
 
-## A Note on Tech
+<div class="mainContent">
+	<h1>We're building something great ...</h1>
+	<p>If all goes as planned, we'll be launching this service in:</p>
+	
+	<div class="mainCountdown">
+		<table border="0" cellspacing="0" cellpadding="0" style="width:100%">
+			<tr>
+				<td>
+					<span id="countdownDays">59</span><br/>
+					<p>Days</p>
+				</td>
+				<td>
+					<span id="countdownHours">23</span><br/>
+					<p>Hours</p>
+				</td>
+				<td>
+					<span id="countdownMinutes">59</span><br/>
+					<p>Minutes</p>
+				</td>
+				<td>
+					<span id="countdownSeconds">59</span><br/>
+					<p>Seconds</p>
+				</td>
+			</tr>
+		</table>
+	</div>
 
-My other sites are powered by [WordPress](http://wordpress.org/), backed by a 
-[MySQL](http://www.mysql.com/) database.
+	<div class="mainInformation">
+		<ul class="nav nav-tabs">
+		  <li class="active">
+			<a href="#">Current Progress</a>
+		  </li>
+		  <li><a href="#">Offer Feedback</a></li>
+		  <li><a href="#">Follow Us</a></li>
+		  <li><a href="#">Stay Informed</a></li>
+		</ul>
+		
+		<div id="divProgress">
+			<div>We're about <span id="percentDone">10</span>% finished!</div>
 
-* [Fauxcabulary](http://www.fauxcabulary.org/) - my pun-a-day blog.
-* [Codetopia, LLC](http://www.codetopia.com/) - my company site.
-* [GrowYourKnow](http://www.growyourknow.com/) - my "I'll get to it eventually" site.
+			<div class="progress">
+			  <div class="bar" style="width: 60%;"></div>
+			</div>
 
-But, this website is created with [Jekyll](http://jekyllrb.com/), using the 
-[JekyllBootstrap theme](http://jekyllbootstrap.com/), and hosted on 
-[GitHub Pages](https://pages.github.com/).
+			<div>What we're working on now:</div>
+			<ul>
+				<li>Gathering feedback from early adopters (That's you!)</li>
+				<li>Planning for and designing core features.</li>
+				<li>Implementing specific features for select clients.</li>
+			</ul>
+			
+			<div class="divBlogPosts">
+				<h2>Blog Posts Here ...</h2>
+				<p>Blah blah blah blah blah blah blah blah blah.<p>
+				
+				<h2>Blog Posts Here ...</h2>
+				<p>Blah blah blah blah blah blah blah blah blah.<p>
+				
+				<h2>Blog Posts Here ...</h2>
+				<p>Blah blah blah blah blah blah blah blah blah.<p>
+			</div>
+		</div>
+		
+		<div id="divFeedback" style="display:none;">
+			<p>[Inspirational text and survey go here...]</p>
+		</div>
+		
+		<div id="divSocialMedia" style="display:none;">
+			<ul>
+				<li>Twitter</li>
+				<li>Facebook</li>
+				<li>Google+</li>
+				<li>RSS Feed</li>
+			</ul>
+		</div>
+		
+		<div id="divNewsletter" style="display:none;">
+			<p>If you would like to know about updates as they're made, sign
+			   up for our newsletter. You will receive progress reports via
+			   email as we meet major milestones or encounter significant 
+			   delays.
+			</p>
+			
+			<ul>
+				<li>Newsletter</li>
+				<li>Facebook</li>
+				<li>Google+</li>
+				<li>RSS Feed</li>
+			</ul>
+		</div>
+		
+	</div>
 
-Here are some [other Jekyll websites](https://github.com/mojombo/jekyll/wiki/Sites).
-
-## Thanks
-
-Thanks for stopping by. Expect more content here soonish.
-
+</div>	
