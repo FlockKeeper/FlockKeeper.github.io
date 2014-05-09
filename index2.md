@@ -149,6 +149,7 @@ layout: page
 	var timer;
 	
 	function onClickTabsMain() {
+	alert("#div" + $(this).attr("id"));
 		$("#mainInformationPages > div").hide();
 		$("#div" + $(this).attr("id")).show();
 	}
