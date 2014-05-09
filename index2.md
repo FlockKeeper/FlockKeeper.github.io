@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Test
 ---
 {% include JB/setup %}
 
@@ -48,7 +49,7 @@ layout: page
 			<div>We're about <span id="percentDone">10</span>% finished!</div>
 
 			<div class="progress">
-			  <div class="bar" style="width: 60%;"></div>
+			  <div class="bar" style="width: 10%;"></div>
 			</div>
 
 			<div>What we're working on now:</div>
