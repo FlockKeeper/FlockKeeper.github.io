@@ -9,7 +9,7 @@ layout: page
 	<p>If all goes as planned, we'll be launching this service in:</p>
 	
 	<div class="mainCountdown">
-		<table border="1" cellspacing="0" cellpadding="0" style="width:100%">
+		<table border="0" cellspacing="0" cellpadding="0" style="width:100%;">
 			<tr>
 				<td>
 					<h1 id="countdownDays">59</h1>
