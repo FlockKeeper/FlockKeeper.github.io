@@ -8,7 +8,7 @@ title: We're Building Something Great ...
 	<p>If all goes as planned, we'll be launching this service in:</p>
 	
 	<div class="mainCountdown">
-		<table border="0" cellspacing="0" cellpadding="0" style="width:100%">
+		<table border="1" cellspacing="0" cellpadding="0" style="width:100%">
 			<tr>
 				<td>
 					<span id="countdownDays">59</span><br/>
@@ -49,7 +49,7 @@ title: We're Building Something Great ...
 			<div id="divProgress">
 				<div>We're about <span id="percentDone">10</span>% finished!</div>
 
-				<div class="progress">
+				<div class="progress" style="margin:20px;">
 				  <div class="bar" style="width: 10%;"></div>
 				</div>
 
