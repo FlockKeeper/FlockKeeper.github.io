@@ -35,8 +35,8 @@ layout: page
 		</table>
 	</div>
 
-	<div class="mainInformation">
-		<ul id="tabsMain">class="nav nav-tabs" style="margin:0;">
+	<div id="tabsMain" class="mainInformation">
+		<ul class="nav nav-tabs" style="margin:0;">
 		  <li id="tabProgress" class="active">
 			<a href="#null">Current Progress</a>
 		  </li>
@@ -48,7 +48,7 @@ layout: page
 		
 		<div class="mainInformationPages">
 		
-			<div id="divnavProgress">
+			<div id="divtabsProgress">
 				<div>We're about <span id="percentDone">5</span>% finished!</div>
 
 				<div class="progress" style="margin:20px;">
@@ -85,11 +85,11 @@ layout: page
 			
 			</div>
 		
-			<div id="divnavFeedback" style="display:none;">
+			<div id="divtabsFeedback" style="display:none;">
 				<p>[Inspirational text and survey go here...]</p>
 			</div>
 		
-			<div id="divnavSocialMedia" style="display:none;">
+			<div id="divtabsSocialMedia" style="display:none;">
 				<ul>
 					<li>Twitter</li>
 					<li>Facebook</li>
@@ -98,7 +98,7 @@ layout: page
 				</ul>
 			</div>
 		
-			<div id="divnavNewsletter" style="display:none;">
+			<div id="divtabsNewsletter" style="display:none;">
 				<p>If you would like to know about updates as they're made, sign
 				   up for our newsletter. You will receive progress reports via
 				   email as we meet major milestones or encounter significant 
@@ -113,7 +113,7 @@ layout: page
 				</ul>
 			</div>
 		
-			<div id="divnavAboutUs" style="display:none;">
+			<div id="divtabsAboutUs" style="display:none;">
 				<p>About us.
 				</p>
 			</div>
