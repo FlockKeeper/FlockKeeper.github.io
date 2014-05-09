@@ -1,8 +1,9 @@
 ---
 layout: page
-title: We're Building Something Great ...
 ---
 {% include JB/setup %}
+
+<h2>We're Building Something Great ...</h2>
 
 <div class="mainContent">
 	<p>If all goes as planned, we'll be launching this service in:</p>
