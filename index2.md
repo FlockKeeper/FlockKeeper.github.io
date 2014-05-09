@@ -86,7 +86,15 @@ layout: page
 			</div>
 		
 			<div id="divtabFeedback" style="display:none;">
-				<p>[Inspirational text and survey go here...]</p>
+				<h2>Our New Service</h2>
+
+				<p>Flock Keeper is intended to be an all-in-one solution for church, charity, and non-profit organization management. We are reaching out to our community of potential users well before development begins to see what features would be most valueable to those users.</p>
+
+				<p>While we will have to charge a premium for some services, our intent is to offer many features at little or no cost for smaller organizations. Your feedback will help us prioritize our development efforts and determine a fair pricing scheme.</p>
+				
+				<p>Please take a moment to complete the following 10-question survey.</p>
+				
+				<div id="surveyMonkeyInfo"><div><script src="http://www.surveymonkey.com/jsEmbed.aspx?sm=6FbEvTP1RzNXlWP_2bpI_2fy6g_3d_3d"> </script></div>Create your free online surveys with <a href="https://www.surveymonkey.com">SurveyMonkey</a> , the world's leading questionnaire tool.</div>
 			</div>
 		
 			<div id="divtabSocialMedia" style="display:none;">
