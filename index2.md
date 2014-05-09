@@ -12,19 +12,19 @@ layout: page
 		<table border="0" cellspacing="0" cellpadding="0" style="width:100%;">
 			<tr>
 				<td>
-					<h1 id="countdownDays">59</h1>
+					<h1 id="countdownDays">&nbsp;</h1>
 					<p>Days</p>
 				</td>
 				<td>
-					<h1 id="countdownHours">23</h1>
+					<h1 id="countdownHours">&nbsp;</h1>
 					<p>Hours</p>
 				</td>
 				<td>
-					<h1 id="countdownMinutes">59</h1>
+					<h1 id="countdownMinutes">&nbsp;</h1>
 					<p>Minutes</p>
 				</td>
 				<td><div>
-					<h1 id="countdownSeconds">59</h1>
+					<h1 id="countdownSeconds">&nbsp;</h1>
 					<p>Seconds</p>
 				</div></td>
 			</tr>
@@ -53,14 +53,23 @@ layout: page
 				<div class="progress" style="margin:20px;">
 				  <div class="bar" style="width: 5%;"></div>
 				</div>
-
-				<h2>What we're working on now:</h2>
 				
-				<ul>
-					<li>Gathering feedback from early adopters (That's you!)</li>
-					<li>Planning for and designing core features</li>
-					<li>Implementing specific features for select clients</li>
-				</ul>
+				<table border="0" cellspacing="0" cellpadding="0" style="width:100%;">
+					<tr>
+						<td>
+							<img src="/images/TwitterIcon.png" alt="Logo" />
+						</td style="vertical-align:top;">
+						<td style="width:100%; vertical-align:top;">
+							<h2>What we're working on now:</h2>
+				
+							<ul>
+								<li>Gathering feedback from early adopters (That's you!)</li>
+								<li>Planning for and designing core features</li>
+								<li>Implementing specific features for select clients</li>
+							</ul>
+						</td>
+					</tr>
+				</table>
 			
 				<div class="divBlogPosts">
 					<h2>Blog Posts Here ...</h2>
