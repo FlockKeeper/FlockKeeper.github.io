@@ -56,9 +56,9 @@ layout: page
 				
 				<table border="0" cellspacing="0" cellpadding="0" style="width:100%;">
 					<tr>
-						<td>
+						<td style="vertical-align:top;">
 							<img src="/images/TwitterIcon.png" alt="Logo" />
-						</td style="vertical-align:top;">
+						</td>
 						<td style="width:100%; vertical-align:top;">
 							<h2>What we're working on now:</h2>
 				
