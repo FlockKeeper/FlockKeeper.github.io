@@ -150,7 +150,7 @@ layout: page
 	
 	function onClickTabsMain() {
 		$("#mainInformationPages > div").hide();
-		$("#div" + $(this).attrib("id")).show();
+		$("#div" + $(this).attr("id")).show();
 	}
 
 </script>
