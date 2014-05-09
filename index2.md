@@ -54,11 +54,13 @@ layout: page
 				  <div class="bar" style="width: 10%;"></div>
 				</div>
 
-				<h3>What we're working on now:</h3>
-			
-				Gathering feedback from early adopters (That's you!)<br/>
-				Planning for and designing core features.<br/>
-				Implementing specific features for select clients.
+				<h2>What we're working on now:</h2>
+				
+				<ul>
+					<li>Gathering feedback from early adopters (That's you!)</li>
+					<li>Planning for and designing core features.</li>
+					<li>Implementing specific features for select clients.</li>
+				</ul>
 			
 				<div class="divBlogPosts">
 					<h2>Blog Posts Here ...</h2>
