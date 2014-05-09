@@ -3,6 +3,32 @@ layout: page
 ---
 {% include JB/setup %}
 
+<script>
+	var end = new Date('11/15/2014 10:00 AM');
+
+	var _second = 1000;
+	var _minute = _second * 60;
+	var _hour = _minute * 60;
+	var _day = _hour * 24;
+
+	function showRemaining() {
+		var now = new Date();
+		var distance = end - now;
+		if (distance < 0) {
+			distance = 0;
+			clearInterval(timer);
+		}
+		
+		$("#countdownDays").text(Math.floor(distance / _day));
+		$("#countdownHours").text(Math.floor((distance % _day) / _hour));
+		$("#countdownMinutes").text(Math.floor((distance % _hour) / _minute));
+		$("#countdownSeconds").text(Math.floor((distance % _minute) / _second));
+	}
+
+	var timer = setInterval(showRemaining, 1000);
+</script>
+
+
 <div class="mainContent">
 	<h2>We're Building Something Great ...</h2>
 	
@@ -48,18 +74,18 @@ layout: page
 		<div class="mainInformationPages">
 		
 			<div id="divProgress">
-				<div>We're about <span id="percentDone">10</span>% finished!</div>
+				<div>We're about <span id="percentDone">5</span>% finished!</div>
 
 				<div class="progress" style="margin:20px;">
-				  <div class="bar" style="width: 10%;"></div>
+				  <div class="bar" style="width: 5%;"></div>
 				</div>
 
 				<h2>What we're working on now:</h2>
 				
 				<ul>
 					<li>Gathering feedback from early adopters (That's you!)</li>
-					<li>Planning for and designing core features.</li>
-					<li>Implementing specific features for select clients.</li>
+					<li>Planning for and designing core features</li>
+					<li>Implementing specific features for select clients</li>
 				</ul>
 			
 				<div class="divBlogPosts">
