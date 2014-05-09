@@ -59,7 +59,7 @@ layout: page
 						<td style="vertical-align:top; width:250px;">
 							<img src="{{ BASE_PATH }}/images/TwitterIcon.png" alt="Logo" style="width:250px; height:250px;"/>
 						</td>
-						<td style="width:100%; vertical-align:top;">
+						<td style="padding-left:20px; vertical-align:top;">
 							<h2>What we're working on now:</h2>
 				
 							<ul>
