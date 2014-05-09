@@ -57,7 +57,7 @@ layout: page
 				<table border="0" cellspacing="0" cellpadding="0" style="width:100%;">
 					<tr>
 						<td style="vertical-align:top; width:250px;">
-							<img src="{{ BASE_PATH }}/images/TwitterIcon.png" alt="Logo" style="width:250px; height:250px;"/>
+							<a href="{{ BASE_PATH }}/images/TwitterIcon.png" target="_blank"><img border="0" src="{{ BASE_PATH }}/images/TwitterIcon.png" alt="Logo" style="width:250px; height:250px;"/></a>
 						</td>
 						<td style="padding-left:20px; vertical-align:top;">
 							<h2>What we're working on now:</h2>
@@ -67,20 +67,21 @@ layout: page
 								<li>Planning for and designing core features</li>
 								<li>Implementing specific features for select clients</li>
 							</ul>
+							
+							<div class="divBlogPosts">
+								<h2>Blog Posts Here ...</h2>
+								<p>Blah blah blah blah blah blah blah blah blah.<p>
+				
+								<h2>Blog Posts Here ...</h2>
+								<p>Blah blah blah blah blah blah blah blah blah.<p>
+				
+								<h2>Blog Posts Here ...</h2>
+								<p>Blah blah blah blah blah blah blah blah blah.<p>
+							</div>
 						</td>
 					</tr>
 				</table>
 			
-				<div class="divBlogPosts">
-					<h2>Blog Posts Here ...</h2>
-					<p>Blah blah blah blah blah blah blah blah blah.<p>
-				
-					<h2>Blog Posts Here ...</h2>
-					<p>Blah blah blah blah blah blah blah blah blah.<p>
-				
-					<h2>Blog Posts Here ...</h2>
-					<p>Blah blah blah blah blah blah blah blah blah.<p>
-				</div>
 			</div>
 		
 			<div id="divFeedback" style="display:none;">
