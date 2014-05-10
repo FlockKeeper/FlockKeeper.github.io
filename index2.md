@@ -124,63 +124,65 @@ layout: page
 			</div>
 		
 			<div id="divtabAboutUs" style="display:none;">
-Scott Carthel Escue @carth3l
+				<h3>Scott Carthel Escue <span style="font-size:0.75em;">@carth3l</span></h3>
 
-Scott Escue has worked as a software developer for over 14 years. He thrives on learning new
-tools and technologies, and he loves finding new approaches to solving problems.
+				<p>Scott Escue has worked as a software developer for over 14 years. He thrives on learning new
+				tools and technologies, and he loves finding new approaches to solving problems.</p>
 
-Scott has been developing in Java for over 12 years on projects large
-and small. It's his bread and butter, having worked with most of the
-technologies in the Java EE stack and surrounding
-ecosystem of libraries and frameworks. 
+				<p>Scott has been developing in Java for over 12 years on projects large
+				and small. It's his bread and butter, having worked with most of the
+				technologies in the Java EE stack and surrounding
+				ecosystem of libraries and frameworks.</p>
 
-Scott is well versed with building web 
-applications and the technologies that support the same - HTML, CSS,
-and JavaScript (which, of course, implies a healthy disdain for IE). 
-He enjoys using "new fangled" libraries and tools to build responsive, 
-cross-browser UIs. 
+				<p>Scott is well versed with building web 
+				applications and the technologies that support the same - HTML, CSS,
+				and JavaScript (which, of course, implies a healthy disdain for IE). 
+				He enjoys using "new fangled" libraries and tools to build responsive, 
+				cross-browser UIs.</p>
 
-Scott has been dabbling in Ruby and Rails development for over 5 years.
-He uses Rails exclusively for all the web applications he builds outside 
-his full time gig. He hasn't had the opportunity to work with Rails full time, 
-so he makes no claims of mastery. But, he loves the sense of productivity that 
-Rails affords when solving complex problems.
+				<p>Scott has been dabbling in Ruby and Rails development for over 5 years.
+				He uses Rails exclusively for all the web applications he builds outside 
+				his full time gig. He hasn't had the opportunity to work with Rails full time, 
+				so he makes no claims of mastery. But, he loves the sense of productivity that 
+				Rails affords when solving complex problems.</p>
 
-Scott started his career building Oracle client-server applications, and
-has worked with Oracle databases in varying capacities ever since. He has also
-worked with a number of other databases, including MySQL, PostgreSQL, and
-several other lighter options such as Apache Derby and H2. Scott strives to
-build ANSI compliant SQL and vendor-neutral data integration to the greatest extent
-possible.
+				<p>Scott started his career building Oracle client-server applications, and
+				has worked with Oracle databases in varying capacities ever since. He has also
+				worked with a number of other databases, including MySQL, PostgreSQL, and
+				several other lighter options such as Apache Derby and H2. Scott strives to
+				build ANSI compliant SQL and vendor-neutral data integration to the greatest extent
+				possible.</p>
 
-He Lives with his family in Alabama.
+				<p>He Lives with his family in Alabama.</p>
 
-Joseph Barrett Hall @groundh0g
+				<h3>Joseph Barrett Hall <span style="font-size:0.75em;">@groundh0g</span></h3>
 
-Joe Hall has been a professional software developer for nearly 25 years. 
+				<p>Joe Hall has been a professional software developer for nearly 25 years.</p>
 
-He worked as a programmer for Microsoft and IBM and he was the software architect 
-for a Fortune 500 bank. He was the CTO of a ticket sales and servicing company 
-and he started his own consulting company in 2006. 
+				<p>He worked as a programmer for Microsoft and IBM and he was the software architect 
+				for a Fortune 500 bank. He was the CTO of a ticket sales and servicing company 
+				and he started his own consulting company in 2006.</p>
 
-Joe makes his living writing desktop, web, and mobile device applications for 
-businesses and governmental agencies, but game programming is his passion, and 
-it was gaming that got him into programming in the first place. 
+				<p>Joe makes his living writing desktop, web, and mobile device applications for 
+				businesses and governmental agencies, but game programming is his passion, and 
+				it was gaming that got him into programming in the first place.</p>
 
-He was a member of the original Xbox team and he joined the Visual Studio .NET team 
-just after the Xbox was released in 2001. Joe is the author of XNA Game Studio 
-Express: Developing Games for Windows and the Xbox 360, which was published in 2007. 
+				<p>He was a member of the original Xbox team and he joined the Visual Studio .NET team 
+				just after the Xbox was released in 2001. Joe is the author of XNA Game Studio 
+				Express: Developing Games for Windows and the Xbox 360, which was published in 2007.</p>
 
-Joe also dabbles in sketching, cartooning, and creating 3D models. When you see his 
-artistic creations, you'll understand why he makes his living as a programmer. 
+				<p>Joe also dabbles in sketching, cartooning, and creating 3D models. When you see his 
+				artistic creations, you'll understand why he makes his living as a programmer.</p>
 
-He Lives with his family in Alabama.
+				<p>He Lives with his family in Alabama.</p>
 
-Team Sq&mu;all
+				<h3>Team Sq&mu;all</h3>
 
-With a combined experience of nearly four decades, Scott and Joe have been churning out 
-great apps for businesses and governmental agencies. Now, they're looking for a place to
-focus their copious free time.
+				<p>With a combined experience of nearly four decades, Scott and Joe have been churning out 
+				great apps for businesses and governmental agencies. Now, they're looking for a place to
+				focus their copious free time.</p>
+				
+				<p><img src="{{ BASE_PATH }}/images/SquallLogo.png" alt="squall logo" /></p>
 			</div>
 		
 		</div>
