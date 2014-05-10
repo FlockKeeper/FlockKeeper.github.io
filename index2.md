@@ -104,7 +104,6 @@ layout: page
 					<a href="" target="_blank"><img src="{{ BASE_PATH }}/images/social/GooglePlus.png" alt="Google Plus"/> Google+</a><br/>
 					<a href="" target="_blank"><img src="{{ BASE_PATH }}/images/social/RSS.png" alt="RSS Feed"/> RSS Feed</a>
 				</div>
-				<a href="https://plus.google.com/115289891490487608586" rel="publisher">Google+</a>
 			</div>
 		
 			<div id="divtabNewsletter" style="display:none;">
