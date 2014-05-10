@@ -88,7 +88,7 @@ layout: page
 			<div id="divtabFeedback" style="display:none;">
 				<h2>Our New Service</h2>
 
-				<p>Flock Keeper is intended to be an all-in-one solution for church, charity, and non-profit organization management. We are reaching out to our community of potential users well before development begins to see what features would be most valueable to those users.</p>
+				<p>Flock Keeper is intended to be an all-in-one solution for church, charity, and non-profit organization management. We are reaching out to our community of potential users well before development begins to see what features would be most valuable to those users.</p>
 
 				<p>While we will have to charge a premium for some services, our intent is to offer many features at little or no cost for smaller organizations. Your feedback will help us prioritize our development efforts and determine a fair pricing scheme.</p>
 				
@@ -98,12 +98,13 @@ layout: page
 			</div>
 		
 			<div id="divtabSocialMedia" style="display:none;">
-				<ul>
-					<li>Twitter</li>
-					<li>Facebook</li>
-					<li>Google+</li>
-					<li>RSS Feed</li>
-				</ul>
+				<div>
+					<a href="https://twitter.com/FlockKeeper" target="_blank"><img src="{{ BASE_PATH }}/images/social/Twitter.png" alt="Twitter"/> Twitter</a><br/>
+					<a href="https://www.facebook.com/FlockKeeper" target="_blank"><img src="{{ BASE_PATH }}/images/social/Facebook.png" alt="Facebook"/> Facebook</a><br/>
+					<a href="" target="_blank"><img src="{{ BASE_PATH }}/images/social/GooglePlus.png" alt="Google Plus"/> Google+</a><br/>
+					<a href="" target="_blank"><img src="{{ BASE_PATH }}/images/social/RSS.png" alt="RSS Feed"/> RSS Feed</a>
+				</div>
+				<a href="https://plus.google.com/115289891490487608586" rel="publisher">Google+</a>
 			</div>
 		
 			<div id="divtabNewsletter" style="display:none;">
