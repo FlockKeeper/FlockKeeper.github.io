@@ -25,6 +25,6 @@ Here are some [other Jekyll websites](https://github.com/mojombo/jekyll/wiki/Sit
 
 Thanks for stopping by. Expect more content here soonish.
 
-<a href="https://plus.google.com/115289891490487608586" rel="publisher">Google+</a>
+
 
 
