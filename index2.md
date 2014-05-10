@@ -69,6 +69,8 @@ layout: page
 								<li>Implementing specific features for select clients</li>
 							</ul>
 							
+							<hr/>
+							
 							<div class="divBlogPosts">
 								<h2>Blog Posts Here ...</h2>
 								<p>Blah blah blah blah blah blah blah blah blah.</p>
