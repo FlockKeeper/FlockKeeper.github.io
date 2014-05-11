@@ -118,8 +118,10 @@ layout: page
 								<a href="https://plus.google.com/u/0/b/115289891490487608586/115289891490487608586/posts" target="_blank"><img src="{{ BASE_PATH }}/images/social/GooglePlus.png" alt="Google Plus"/> Google+</a><br/>
 								<a href="" target="_blank"><img src="{{ BASE_PATH }}/images/social/RSS.png" alt="RSS Feed"/> RSS Feed</a>
 							</td>
-							<td style="vertical-align:top;">
-								<p>This is filler text ...</p>
+							<td style="vertical-align:top; width:100%; text-align:left;">
+								<h2>Social Media</h2>
+								<p>If you want to know everything that's going on during the process of building Flock Keeper, this is the place to be. Scott and Joe will be using this space as a blog during the process.</p>
+								<p>If you just want to know when we hit major milestones or when have an important announcement, click on the "Stay Informed" tab.</p>
 							</td>
 						</tr>
 					</table>
