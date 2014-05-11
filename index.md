@@ -125,7 +125,7 @@ layout: page
 								<h2>Social Media</h2>
 								<p>If you want to know everything that's going on during the process of building Flock Keeper, this is the place to be. Scott and Joe will be using this space as a blog during the process.</p>
 <!-- 
-								<p>If you just want to know when we hit major milestones or when have an important announcement, click on the "Stay Informed" tab.</p> -->
+								<p>If you just want to know when we hit major milestones or when have an important announcement, click on the "Stay Informed" tab.</p>
 -->
 							</td>
 						</tr>
