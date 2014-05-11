@@ -89,7 +89,7 @@ layout: page
 			</div>
 		
 			<div id="divtabFeedback" style="display:none;">
-				<h2>Our New Service</h2>
+				<h2>What is Flock Keeper?</h2>
 
 				<p>Flock Keeper is intended to be an all-in-one solution for church, charity, and non-profit organization management. We are reaching out to our community of potential users well before development begins to see what features would be most valuable to those users.</p>
 
@@ -97,13 +97,13 @@ layout: page
 				
 				<p>As software developers, we're constantly approached by folks with great ideas for new applications. One of the most common requests is for software that makes managing groups and events easier. Those requests typically come from churches and non-profit organizations who are looking for solutions that address their needs in a user-friendly way.</p>
 				
-				<h2>Cost</h2>
+				<h2>How Much Will It Cost?</h2>
 				
 				<p>While we will have to charge a premium for some services, our intent is to offer many features at little or no cost for smaller organizations. Your feedback will help us prioritize our development efforts and determine a fair pricing scheme.</p>
 				
-				<h2>Help Us</h2>
+				<h2>Help Us!</h2>
 				
-				<p>Please take a moment to complete the following 10-question survey.</p>
+				<p>Please take a moment to complete the following 10-question survey. Your feedback will help us make the service even better!</p>
 				
 				<p><a class="btn btn-primary" href="https://www.surveymonkey.com/s/866WMLJ" target="_blank">Take Our Survey</a></p>
 			</div>
