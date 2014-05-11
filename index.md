@@ -132,7 +132,7 @@ layout: page
 					<table border="0" cellspacing="0" cellpadding="0">
 						<tr>
 							<td style="vertical-align:top; white-space:nowrap; width:150px;">
-								<a href="https://twitter.com/FlockKeeper" target="_blank"><img src="{{ BASE_PATH }}/images/social/Email.png" alt="Newsletter"/> Newsletter</a>
+								<a href="https://twitter.com/FlockKeeper" target="_blank"><img src="{{ BASE_PATH }}/images/social/Mail.png" alt="Newsletter"/> Newsletter</a>
 							</td>
 							<td style="vertical-align:top; text-align:left;">
 								<h2>Newsletter</h2>
