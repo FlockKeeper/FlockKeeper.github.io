@@ -69,19 +69,14 @@ layout: page
 								<li>Implementing specific features for select clients</li>
 							</ul>
 							
-							<hr/>
-
 							<div class="divBlogPosts">
 								{% assign posts_collate = site.posts %}
 
-								{% for post in posts_collate offset:0 limit:3 %}
-									{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-									{% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
-									{% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
-									{% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
-	
-									<h2 style="margin-bottom:2px;"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
-									<div style="font-size:0.8em; margin-top:-5px; margin-bottom:15px;">&nbsp;&nbsp;{{ post.date | date_to_long_string }}</div>
+								{% for post in posts_collate offset:0 limit:5 %}
+									<hr/>
+									
+									<h2 style="margin-bottom:5px;"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
+									<div style="font-size:0.8em; margin-bottom:15px;">&nbsp;&nbsp;{{ post.date | date_to_long_string }}</div>
 									
 									<div>{{ post.content }}</div>
 	
@@ -98,7 +93,15 @@ layout: page
 
 				<p>Flock Keeper is intended to be an all-in-one solution for church, charity, and non-profit organization management. We are reaching out to our community of potential users well before development begins to see what features would be most valuable to those users.</p>
 
+				<h2>Why Another Service?</h2>
+				
+				<p>As software developers, we're constantly approached by folks with great ideas for new applications. One of the most common requests is for software that makes managing groups and events easier. Those requests typically come from churches and non-profit organizations who are looking for solutions that address their needs in a user-friendly way.</p>
+				
+				<h2>Cost</h2>
+				
 				<p>While we will have to charge a premium for some services, our intent is to offer many features at little or no cost for smaller organizations. Your feedback will help us prioritize our development efforts and determine a fair pricing scheme.</p>
+				
+				<h2>Help Us</h2>
 				
 				<p>Please take a moment to complete the following 10-question survey.</p>
 				
