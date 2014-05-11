@@ -118,7 +118,7 @@ layout: page
 								<a href="https://twitter.com/FlockKeeper" target="_blank"><img src="{{ BASE_PATH }}/images/social/Twitter.png" alt="Twitter"/> Twitter</a><br/>
 								<a href="https://www.facebook.com/FlockKeeper" target="_blank"><img src="{{ BASE_PATH }}/images/social/Facebook.png" alt="Facebook"/> Facebook</a><br/>
 								<a href="https://plus.google.com/u/0/b/115289891490487608586/115289891490487608586/posts" target="_blank"><img src="{{ BASE_PATH }}/images/social/GooglePlus.png" alt="Google Plus"/> Google+</a><br/>
-								<a href="http://feeds.feedburner.com/FlockKeeper" target="_blank"><img src="{{ BASE_PATH }}/images/social/RSS.png" alt="RSS Feed"/> RSS Feed</a>
+								<a href="http://feeds.feedburner.com/FlockKeeper" target="_blank"><img src="{{ BASE_PATH }}/images/social/RSS.png" alt="RSS Feed"/> RSS Feed</a><br/>
 								<a href="http://feedburner.google.com/fb/a/mailverify?uri=FlockKeeper&amp;loc=en_US" target="_blank"><img src="{{ BASE_PATH }}/images/social/Mail.png" alt="Email"/> Email</a>
 							</td>
 							<td style="vertical-align:top; text-align:left;">
