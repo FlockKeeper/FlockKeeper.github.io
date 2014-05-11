@@ -184,13 +184,13 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	
     <script type="text/javascript">
-    	if(window["showRemaining"]) {
+    	if(typeof showRemaining !== 'undefined') {
 			$(document).ready(function(){
 				timer = setInterval(showRemaining, 1000);
 			});
 		}
 
-    	if(onClickTabsMain) {
+    	if(typeof onClickTabsMain !== 'undefined') {
 			$("#tabsMain ul li").click(function(){
 				onClickTabsMain($(this));
 			});
