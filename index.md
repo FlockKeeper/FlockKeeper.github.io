@@ -42,7 +42,9 @@ layout: page
 		  </li>
 		  <li id="tabFeedback"><a href="#null">Offer Feedback</a></li>
 		  <li id="tabSocialMedia"><a href="#null">Follow Us</a></li>
+<!--
 		  <li id="tabNewsletter"><a href="#null">Stay Informed</a></li>
+-->
 		  <li id="tabAboutUs"><a href="#null">About Us</a></li>
 		</ul>
 		
@@ -116,12 +118,15 @@ layout: page
 								<a href="https://twitter.com/FlockKeeper" target="_blank"><img src="{{ BASE_PATH }}/images/social/Twitter.png" alt="Twitter"/> Twitter</a><br/>
 								<a href="https://www.facebook.com/FlockKeeper" target="_blank"><img src="{{ BASE_PATH }}/images/social/Facebook.png" alt="Facebook"/> Facebook</a><br/>
 								<a href="https://plus.google.com/u/0/b/115289891490487608586/115289891490487608586/posts" target="_blank"><img src="{{ BASE_PATH }}/images/social/GooglePlus.png" alt="Google Plus"/> Google+</a><br/>
-								<a href="" target="_blank"><img src="{{ BASE_PATH }}/images/social/RSS.png" alt="RSS Feed"/> RSS Feed</a>
+								<a href="http://feeds.feedburner.com/FlockKeeper" target="_blank"><img src="{{ BASE_PATH }}/images/social/RSS.png" alt="RSS Feed"/> RSS Feed</a>
+								<a href="http://feedburner.google.com/fb/a/mailverify?uri=FlockKeeper&amp;loc=en_US" target="_blank"><img src="{{ BASE_PATH }}/images/social/Mail.png" alt="Email"/> Email</a>
 							</td>
 							<td style="vertical-align:top; text-align:left;">
 								<h2>Social Media</h2>
 								<p>If you want to know everything that's going on during the process of building Flock Keeper, this is the place to be. Scott and Joe will be using this space as a blog during the process.</p>
-								<p>If you just want to know when we hit major milestones or when have an important announcement, click on the "Stay Informed" tab.</p>
+<!-- 
+								<p>If you just want to know when we hit major milestones or when have an important announcement, click on the "Stay Informed" tab.</p> -->
+-->
 							</td>
 						</tr>
 					</table>
@@ -129,10 +134,11 @@ layout: page
 			</div>
 		
 			<div id="divtabNewsletter" style="display:none;">
+<!--
 				<table border="0" cellspacing="0" cellpadding="0">
 					<tr>
 						<td style="vertical-align:top; white-space:nowrap; width:150px;">
-							<a href="https://twitter.com/FlockKeeper" target="_blank"><img src="{{ BASE_PATH }}/images/social/Mail.png" alt="Newsletter"/> Newsletter</a>
+							<a href="" target="_blank"><img src="{{ BASE_PATH }}/images/social/Mail.png" alt="Newsletter"/> Newsletter</a>
 						</td>
 						<td style="vertical-align:top; text-align:left;">
 							<h2>Newsletter</h2>
@@ -141,6 +147,7 @@ layout: page
 						</td>
 					</tr>
 				</table>
+-->
 			</div>
 		
 			<div id="divtabAboutUs" style="display:none;">
