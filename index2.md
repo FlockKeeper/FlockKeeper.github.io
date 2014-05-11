@@ -70,8 +70,22 @@ layout: page
 							</ul>
 							
 							<hr/>
-							
+
 							<div class="divBlogPosts">
+								{% assign posts_collate = site.posts %}
+
+								{% for post in posts_collate offset:0 limit:3 %}
+									{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+									{% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
+									{% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+									{% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
+	
+									<h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
+									<span style="font-size:0.8em;">&nbsp;&nbsp;{{ post.date | date_to_long_string }}</span>
+									<div>{{ post.content }}</div>
+	
+								{% endfor %}
+								
 								<h2>Blog Posts Here ...</h2>
 								<p>Blah blah blah blah blah blah blah blah blah.</p>
 				
