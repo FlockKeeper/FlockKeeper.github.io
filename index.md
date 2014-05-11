@@ -112,7 +112,7 @@ layout: page
 				<div>
 					<table border="0" cellspacing="0" cellpadding="0">
 						<tr>
-							<td style="vertical-align:top; white-space:nowrap;">
+							<td style="vertical-align:top; white-space:nowrap; width:250px;">
 								<a href="https://twitter.com/FlockKeeper" target="_blank"><img src="{{ BASE_PATH }}/images/social/Twitter.png" alt="Twitter"/> Twitter</a><br/>
 								<a href="https://www.facebook.com/FlockKeeper" target="_blank"><img src="{{ BASE_PATH }}/images/social/Facebook.png" alt="Facebook"/> Facebook</a><br/>
 								<a href="https://plus.google.com/u/0/b/115289891490487608586/115289891490487608586/posts" target="_blank"><img src="{{ BASE_PATH }}/images/social/GooglePlus.png" alt="Google Plus"/> Google+</a><br/>
