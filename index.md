@@ -89,7 +89,7 @@ layout: page
 			</div>
 		
 			<div id="divtabFeedback" style="display:none;">
-				<!-- <h2>What is Flock Keeper?</h2> -->
+				<h2>What is Flock Keeper?</h2>
 
 				<p>Flock Keeper is intended to be an all-in-one solution for church, charity, and non-profit organization management. We are reaching out to our community of potential users well before development begins to see what features would be most valuable to those users.</p>
 
@@ -110,10 +110,19 @@ layout: page
 		
 			<div id="divtabSocialMedia" style="display:none;">
 				<div>
-					<a href="https://twitter.com/FlockKeeper" target="_blank"><img src="{{ BASE_PATH }}/images/social/Twitter.png" alt="Twitter"/> Twitter</a><br/>
-					<a href="https://www.facebook.com/FlockKeeper" target="_blank"><img src="{{ BASE_PATH }}/images/social/Facebook.png" alt="Facebook"/> Facebook</a><br/>
-					<a href="https://plus.google.com/u/0/b/115289891490487608586/115289891490487608586/posts" target="_blank"><img src="{{ BASE_PATH }}/images/social/GooglePlus.png" alt="Google Plus"/> Google+</a><br/>
-					<a href="" target="_blank"><img src="{{ BASE_PATH }}/images/social/RSS.png" alt="RSS Feed"/> RSS Feed</a>
+					<table border="0" cellspacing="0" cellpadding="0" style="width:100%;">
+						<tr>
+							<td style="vertical-align:top; white-space:nowrap;">
+								<a href="https://twitter.com/FlockKeeper" target="_blank"><img src="{{ BASE_PATH }}/images/social/Twitter.png" alt="Twitter"/> Twitter</a><br/>
+								<a href="https://www.facebook.com/FlockKeeper" target="_blank"><img src="{{ BASE_PATH }}/images/social/Facebook.png" alt="Facebook"/> Facebook</a><br/>
+								<a href="https://plus.google.com/u/0/b/115289891490487608586/115289891490487608586/posts" target="_blank"><img src="{{ BASE_PATH }}/images/social/GooglePlus.png" alt="Google Plus"/> Google+</a><br/>
+								<a href="" target="_blank"><img src="{{ BASE_PATH }}/images/social/RSS.png" alt="RSS Feed"/> RSS Feed</a>
+							</td>
+							<td style="vertical-align:top;">
+								<p>This is filler text ...</p>
+							</td>
+						</tr>
+					</table>
 				</div>
 			</div>
 		
