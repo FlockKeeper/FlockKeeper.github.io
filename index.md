@@ -89,7 +89,7 @@ layout: page
 			</div>
 		
 			<div id="divtabFeedback" style="display:none;">
-				<h2>What is Flock Keeper?</h2>
+				<!-- <h2>What is Flock Keeper?</h2> -->
 
 				<p>Flock Keeper is intended to be an all-in-one solution for church, charity, and non-profit organization management. We are reaching out to our community of potential users well before development begins to see what features would be most valuable to those users.</p>
 
