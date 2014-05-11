@@ -103,8 +103,6 @@ layout: page
 				<p>Please take a moment to complete the following 10-question survey.</p>
 				
 				<p><a class="btn btn-primary" href="https://www.surveymonkey.com/s/866WMLJ" target="_blank">Take Our Survey</a></p>
-				
-				<div id="surveyMonkeyInfo"><div><script src="http://www.surveymonkey.com/jsEmbed.aspx?sm=6FbEvTP1RzNXlWP_2bpI_2fy6g_3d_3d"> </script></div>Create your free online surveys with <a href="https://www.surveymonkey.com">SurveyMonkey</a> , the world's leading questionnaire tool.</div>
 			</div>
 		
 			<div id="divtabSocialMedia" style="display:none;">
