@@ -80,8 +80,9 @@ layout: page
 									{% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 									{% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
 	
-									<h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
-									<span style="font-size:0.8em;">&nbsp;&nbsp;{{ post.date | date_to_long_string }}</span>
+									<h2 style="margin-bottom:2px;"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
+									<span style="font-size:0.8em; margin-bottom:10px;">&nbsp;&nbsp;{{ post.date | date_to_long_string }}</span>
+									
 									<div>{{ post.content }}</div>
 	
 								{% endfor %}
