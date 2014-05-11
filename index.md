@@ -129,25 +129,18 @@ layout: page
 			</div>
 		
 			<div id="divtabNewsletter" style="display:none;">
-					<table border="0" cellspacing="0" cellpadding="0">
-						<tr>
-							<td style="vertical-align:top; white-space:nowrap; width:150px;">
-								<a href="https://twitter.com/FlockKeeper" target="_blank"><img src="{{ BASE_PATH }}/images/social/Mail.png" alt="Newsletter"/> Newsletter</a>
-							</td>
-							<td style="vertical-align:top; text-align:left;">
-								<h2>Newsletter</h2>
-								<p>If you would like to know about updates as they're made, sign up for our newsletter. You will receive progress reports via email as we meet major milestones or encounter significant delays.</p>
-								<p>The newsletter will be less chatty than the "Follow Us" options.</p>
-							</td>
-						</tr>
-					</table>
-			
-				<ul>
-					<li>Newsletter</li>
-					<li>Facebook</li>
-					<li>Google+</li>
-					<li>RSS Feed</li>
-				</ul>
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td style="vertical-align:top; white-space:nowrap; width:150px;">
+							<a href="https://twitter.com/FlockKeeper" target="_blank"><img src="{{ BASE_PATH }}/images/social/Mail.png" alt="Newsletter"/> Newsletter</a>
+						</td>
+						<td style="vertical-align:top; text-align:left;">
+							<h2>Newsletter</h2>
+							<p>If you would like to know about updates as they're made, sign up for our newsletter. You will receive progress reports via email as we meet major milestones or encounter significant delays.</p>
+							<p>The newsletter will be less chatty than the "Follow Us" options.</p>
+						</td>
+					</tr>
+				</table>
 			</div>
 		
 			<div id="divtabAboutUs" style="display:none;">
