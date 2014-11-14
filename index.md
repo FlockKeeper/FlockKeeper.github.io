@@ -219,7 +219,7 @@ layout: page
 </div>	
 
 <script type="text/javascript">
-	var end = new Date('11/15/2014 10:00 AM');
+	var end = new Date('06/15/2015 10:00 AM');
 
 	var _second = 1000;
 	var _minute = _second * 60;
